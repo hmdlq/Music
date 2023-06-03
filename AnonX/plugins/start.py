@@ -166,7 +166,7 @@ async def start_comm(client, message: Message, _):
 🔗**الرابط:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
 💖 البحث يعمل بواسطة {config.MUSIC_BOT_NAME} \n
- 𓏺[᥉᥆ᥙᖇᥴᥱ ꫝꪖꪗꪖ](https://t.me/HL_BG)
+ 𓏺[• ⌞ ⩹━⊷⌯ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝ •](https://t.me/ZZZ7iZ)
 """
             key = InlineKeyboardMarkup(
                 [
@@ -175,7 +175,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="𓏺᥉᥆ᥙᖇᥴᥱ ꫝꪖꪗꪖ", url="https://t.me/HL_BG"
+                            text="𓏺• ⌞ ⩹━⊷⌯ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝ •", url="https://t.me/ZZZ7iZ"
                         ),
                     ],
                 ]
