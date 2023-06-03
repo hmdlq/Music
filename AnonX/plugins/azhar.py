@@ -109,8 +109,8 @@ txt = [
 
 async def nokt(client: Client, message: Message):
 
-      a = random.choice(txt)
+      z = random.choice(txt)
 
       await message.reply(
 
-        f"{a}")
+        f"{z}")
