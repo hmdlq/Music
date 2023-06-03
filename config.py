@@ -21,12 +21,12 @@ OWNER_ID = list(
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/HAYA1")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/AHMED")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HL_BG")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HL_BG")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZZZ7iZ")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ZZZ7iZ")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
