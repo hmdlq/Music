@@ -1,7 +1,7 @@
 {
-    "name": "cr ダ ᴍᴜsɪᴄ",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "name": "spack ダ ᴍᴜsɪᴄ",
+    "description": "سورس سبارك",
+    "logo": "https://graph.org/file/2577f47589c4b4c63e4a6.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,17 +13,17 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "الايبي ايدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "الايبي هاش",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "توكن بوتك",
         "value": "",
         "required": true
       },
@@ -33,32 +33,32 @@
         "required": false
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "cr ダ ᴍᴜsɪᴄ",
+        "description": "اسم بوتك تكدر تخليه مزخرف",
+        "value": "Mina ダ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "ايدي المطور تكدر تضيف اكثر من ايدي",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "كود الجلسه لازم يكون بايروجرام v1",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "مفتاح الهيروكو",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
+        "description": "اسم تطبيق الهيروكو",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "ايدي كروب التخزين",
         "value": "",
         "required": true
       }
