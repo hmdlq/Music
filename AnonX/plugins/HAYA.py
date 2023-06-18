@@ -3,7 +3,7 @@ import asyncio
 import os
 import time
 import requests
-from config import OWNER_ID
+from config import OWNER_ID, USER_OWNER
 from pyrogram import filters
 import random
 from pyrogram import Client
@@ -112,16 +112,16 @@ async def yas(client, message):
     
 
 @app.on_message(
-    command(["مطور البوت"])
+    command(["المطور"])
     & filters.group
     & ~filters.edited
 )
 async def yas(client, message):
-    user_OW = config.OWNER_ID
-    usr = await client.get_chat("user_OW")
+    
+   usr = await client.get_chat(USER_OWNER)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{user_OW}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ َِ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝━⊶★━⩺**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
