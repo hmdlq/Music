@@ -22,7 +22,6 @@
         "value": "",
         "required": true
       },
-      },
       "USER_OWNER": {
         "description": "يوزرك بدون @",
         "value": "",
