@@ -22,6 +22,12 @@
         "value": "",
         "required": true
       },
+      },
+      "USER_OWNER": {
+        "description": "يوزرك بدون @",
+        "value": "",
+        "required": true
+      },
       "BOT_TOKEN": {
         "description": "توكن بوتك",
         "value": "",
