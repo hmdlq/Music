@@ -129,7 +129,7 @@ async def yas(client, message):
                        "مطور البوت", url=f"https://t.me/{usr.username}")
                 ],   [
                     InlineKeyboardButton(
-                        "استدعاء المطور", url=f"https://t.me/{usr.username}"),                        
+                        "قناة السورس", url=f"https://t.me/ZZZ7iZ"),                        
                  ],
             ]
         ),
