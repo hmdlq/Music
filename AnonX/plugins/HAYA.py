@@ -125,10 +125,12 @@ async def yas(client, message):
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                      InlineKeyboardButton(
-                text="👤 مطور البوت", user_id=OWNER
-            )
-                ],
+                    InlineKeyboardButton(
+                       "مطور البوت", url=f"https://t.me/{usr.username}")
+                ],   [
+                    InlineKeyboardButton(
+                        "استدعاء المطور", url=f"https://t.me/{usr.username}"),                        
+                 ],
             ]
         ),
     )
