@@ -7,8 +7,8 @@ from pyrogram.types import (InlineKeyboardButton,
 from youtubesearchpython.__future__ import VideosSearch
 from strings.filters import command
 import config
-from config import BANNED_USERS
-from config import OWNER_ID
+from config import BANNED_USERS, USER_OWNER
+
 from strings import get_command, get_string
 from AnonX import Telegram, YouTube, app
 from AnonX.misc import SUDOERS, _boot_
@@ -155,7 +155,7 @@ async def start_comm(client, message: Message, _):
                 published = result["publishedTime"]
             searched_text = f"""
 😲**معلومات المسارات**😲
-[مقدم من سورس حياه](https://t.me/HL_BG) \n [المطور]  {config.OWNER_ID}
+[المطور]{https://t.me/USER_OWNER}
 📌**عنوان:** {title}
 
 ⏳**المدة:** {duration} ᴍɪɴᴜᴛᴇs
@@ -165,8 +165,8 @@ async def start_comm(client, message: Message, _):
 📎**رابط القناة:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗**الرابط:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
-💖 البحث يعمل بواسطة {config.MUSIC_BOT_NAME} \n
- 𓏺[• ⌞ ⩹━⊷⌯ 𓏺َِ᥉َِ᥆َِꪊَِᖇَِᥴُِ꧖ ᥉َِρُِꪖَِᖇَِᥴُِƙَِ ⌝ •](https://t.me/ZZZ7iZ)
+البحث بواسطة: {config.MUSIC_BOT_NAME} \n
+ 𓏺[• ⌞سئورس سبارك⌝ •](https://t.me/ZZZ7iZ)
 """
             key = InlineKeyboardMarkup(
                 [
